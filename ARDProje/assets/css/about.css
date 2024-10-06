@@ -1,0 +1,184 @@
+.about{
+  margin-block-end: 20px;
+}
+
+.about-top {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  height: 150px;
+}
+.w-h{
+  width: 120px;
+  
+}
+.relative-img {
+  position: relative;
+}
+.about .container .banner {
+ display: none;
+}
+.banner-2 {
+  padding-block-start: 15px;
+}
+
+.about .shape {
+  position: absolute;
+  z-index: -1;
+  animation: heroDecoAnim 3s linear infinite alternate;
+}
+@keyframes heroDecoAnim {
+  0% {
+    transform: translateY(40px) rotate(0);
+  }
+  100% {
+    transform: translateY(0) rotate(0.4turn);
+  }
+}
+.about-top .shape-1 {
+  right: 15px;
+}
+.about-top .shape-2 {
+  bottom: 60px;
+  left: 24px;
+}
+.about .shape-1 {
+  top: 50px;
+  right: 40px;
+}
+.about .shape-2 {
+  bottom: 20px;
+  left: 24px;
+}
+
+.about-content .about-title {
+  font-size: var(--fontSize-body-title);
+}
+.about-content h1 {
+  height: 0;
+  padding-block-start: 25px;
+}
+
+.about-content .about-text {
+  font-size: var(--fontSize-body-title-4);
+  font-family: "Roboto Mono", monospace;
+  text-align: -webkit-center;
+}
+.about-bg {
+  display: block;
+  position: absolute;
+  pointer-events: none;
+}
+.about-bg-1 {
+  /* top: -80px; */
+  left: 0;
+}
+.about-bg-2 {
+  top: -80px;
+  right: 0;
+}
+
+.button-about {
+  margin-block-start: 20px;
+  text-align: center;
+}
+
+.button-about .btn-secondary.learn-more {
+  height: auto;
+  width: 11rem;
+}
+.button-about .btn-secondary.learn-more .button-text {
+  background: var(--blue);
+  background-clip: text;
+  color: transparent;
+  font-size: 13px;
+  padding: .5rem 0;
+}
+.button-about .btn-secondary.learn-more .circle {
+  background: var(--bg-color-2);
+  height: 2.4rem;
+  width: 46px;
+  
+  
+}
+.button-about .btn-secondary.learn-more:hover .circle{
+  width: auto;
+  transition: all var(--transition-2);
+}
+.button-about .btn-secondary:hover .button-text {
+  color: white;
+}
+
+/*
+.about .container {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-inline-start: 100px;
+}
+
+.about-content {
+  padding-inline-start: 50px;
+}
+  .about-content .about-text {
+  margin-block-start: 65px;
+  font-size: var(--fontSize-body-title-3);
+  font-family: "Roboto Mono", monospace;
+  text-align: -webkit-center;
+}
+
+.about-content h1 {
+  height: 0;
+}
+
+.banner {
+  position: relative;
+}
+.banner .w-100 {
+  max-width: max-content;
+  margin-inline: auto;
+}
+
+.about .shape {
+  position: absolute;
+  z-index: -1;
+  animation: heroDecoAnim 3s linear infinite alternate;
+}
+@keyframes heroDecoAnim {
+  0% {
+    transform: translateY(40px) rotate(0);
+  }
+  100% {
+    transform: translateY(0) rotate(0.4turn);
+  }
+}
+.about .shape-1 {
+  top: 50px;
+  right: 40px;
+}
+.about .shape-2 {
+  bottom: 20px;
+  left: 24px;
+}
+
+/* button
+.button-about {
+  margin-block-start: 20px;
+  text-align: center;
+}
+
+.button-about .btn-secondary.learn-more {
+  height: auto;
+  width: 15rem;
+}
+.button-about .btn-secondary.learn-more .button-text {
+  background: var(--blue);
+  background-clip: text;
+  color: transparent;
+}
+.button-about .btn-secondary.learn-more .circle {
+  background: var(--dark);
+}
+.button-about .btn-secondary:hover .button-text {
+  color: white;
+}

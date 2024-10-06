@@ -1,0 +1,105 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sertifikasyon-text {
+  margin-block-start: 10px;
+  margin-block-end: 25px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.sertifikasyon-title {
+  margin-block: 20px;
+}
+.sertifikasyon-title .span {
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.sertifikasyon-list{
+display: grid;
+gap: 20px;
+grid-template-columns: repeat(2 , 1fr);
+justify-items: center;
+}
+.sertifikasyon-item {
+  border-radius: 10px;
+  box-shadow: var(--shadow-1);
+}
+
+
+
+
+.button-sertifikasyon {
+  margin-block-start: 20px;
+  text-align: center;
+}
+
+.button-sertifikasyon .btn-secondary.learn-more {
+  width: 18rem;
+  height: auto;
+}
+
+.button-sertifikasyon .btn-secondary.learn-more .button-text {
+  background: var(--blue);
+  background-clip: text;
+  color: transparent;
+  text-transform: none;
+}
+.button-sertifikasyon .btn-secondary.learn-more .circle {
+  background: var(--dark);
+}
+
+.button-sertifikasyon .btn-secondary:hover .button-text {
+  color: white;
+  font-size: 15px;
+  text-transform: none;
+
+}
+
+/*
+.sertifikasyon-list {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(5, 1fr);
+
+  justify-items: center;
+}
+.sertifikasyon-item {
+  border-radius: 10px;
+  box-shadow: var(--shadow-1);
+}
+
+.button-sertifikasyon {
+  margin-block-start: 20px;
+  text-align: center;
+}
+
+.button-sertifikasyon .btn-secondary.learn-more {
+  width: 21rem;
+  height: auto;
+}
+
+.button-sertifikasyon .btn-secondary.learn-more .button-text {
+  background: var(--blue);
+  background-clip: text;
+  color: transparent;
+}
+.button-sertifikasyon .btn-secondary.learn-more .circle {
+  background: var(--dark);
+}
+
+.button-sertifikasyon .btn-secondary:hover .button-text {
+  color: white;
+}
